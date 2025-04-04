@@ -1,4 +1,4 @@
-a[href*="feed.xml"] {
+.rss-subscribe {
     display: none !important;
 }
 
