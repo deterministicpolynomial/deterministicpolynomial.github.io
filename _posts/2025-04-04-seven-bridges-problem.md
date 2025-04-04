@@ -6,7 +6,7 @@ The Seven Bridges of Königsberg is one of the most famous problems in the histo
 
 Königsberg, in the 18th century, was a bustling city divided by the Pregel River. The city had two large islands, connected to each other and the mainland by seven bridges. The residents of the city noticed an interesting question: Is it possible to walk through the city, cross each bridge exactly once, and return to the starting point? 
 
-To visualize this, imagine a map of the city with the four distinct landmasses (two islands and the two banks of the river) and the seven bridges connecting them. The challenge was to determine if it was possible to find a route where each bridge is crossed exactly once.
+To visualize this, imagine a map of the city with the four distinct landmasses (two islands and the two banks of the river) and the seven bridges connecting them. The challenge was to determine if it was possible to find a route where each bridge was crossed exactly once.
 
 ## The Puzzle and the Problem's Origin
 
@@ -37,19 +37,13 @@ Applying this logic to the Seven Bridges of Königsberg:
 
 Since all four landmasses had an odd number of bridges (degree), there was no possibility of finding an Eulerian path or circuit. **This means it was impossible to walk across all seven bridges without repeating any of them.**
 
-Euler’s conclusion was that there was no solution to the problem, and more importantly, he generalized this result to show that any graph where more than two vertices have an odd degree cannot have an Eulerian path.
+Euler concluded that there was no solution to the problem, and more importantly, he generalized this result to show that any graph where more than two vertices have an odd degree cannot have an Eulerian path.
 
 ## The Legacy of the Problem: The Birth of Graph Theory
 
 Euler’s solution to the Seven Bridges problem was not just a resolution to a geographical puzzle, but a foundational moment for the field of graph theory. By abstracting the problem into a graph, Euler demonstrated how mathematical structures could be used to model real-world problems. His work laid the groundwork for modern computer science, network theory, and even social network analysis.
 
 Euler’s exploration of graphs led to the creation of **graph theory** as a distinct area of mathematics. Concepts like Eulerian paths and circuits, as well as other graph properties, have since been applied to countless fields, from computer networking to biology, economics, and even sociology.
-
-## Conclusion: A Simple Puzzle, A Profound Impact
-
-The Seven Bridges of Königsberg, while a simple problem in appearance, had profound implications for mathematics and computer science. Euler’s abstract thinking turned a local puzzle into a global theory, providing the tools that would later help solve complex problems in diverse domains. His ability to see beyond the geographical constraints and approach the problem through graphs transformed the way we understand networks and connections today.
-
-So, the next time you encounter a complex network or need to solve a problem related to paths and connections, remember the Seven Bridges of Königsberg — the puzzle that helped lay the foundations for modern graph theory.
 
 ## Further Exploration
 
