@@ -55,7 +55,3 @@ The Halting Problem is one of the first results demonstrating the existence of *
 ### Conclusion
 
 The proof of the Halting Problem’s undecidability is a cornerstone of theoretical computer science. It establishes that not all problems are solvable by algorithms and reveals deep limitations on the power of computation. Turing’s result remains one of the most elegant and profound proofs in the history of logic and mathematics.
-
----
-
-Stay tuned for more fascinating proofs in future posts!
