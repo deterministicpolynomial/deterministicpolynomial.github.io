@@ -19,6 +19,8 @@ linkedin_username: "sam-nijsten"
 #########################################################################################
 theme: "minima"
 
+show_rss: false
+
 kramdown:
   syntax_highlighter_opts:
     disable: true
