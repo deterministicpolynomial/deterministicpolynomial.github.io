@@ -1,6 +1,6 @@
 # What Is Discrete Math? CS Fundamentals Part 1
 
-Welcome to the first series I will be doing on this blog, called "CS fundamentals"! In this series, we will cover some of the basic principles of theoretical computer science, such as logic and set theory, discrete mathematics, big-oh notation and much more!
+Welcome to the first series I will be doing on this blog, called "CS fundamentals"! In this series, we will cover some of the basic principles of theoretical computer science, such as logic and set theory, discrete mathematics, big-oh notation, and much more!
 
 ---
 
@@ -29,8 +29,26 @@ Great question! Here's the deal: most of what you’ll do in computer science re
 
 ## Real-World Example: Modeling a Network
 
-To see why discrete math matters, let’s use a simple example: modeling a network. Suppose you’re working on designing a routing algorithm for a computer network. The network can be thought of as a **graph**, where each computer is a **vertex** and the connections between them are **edges**. Discrete mathematics allows us to write this down as a graph $$G = (V, E)$$, where $$V$$ is the set of computers, and $$E$$ is the set of connections between the computers. Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+To see why discrete math matters, let’s use a simple example: modeling a network. Suppose you’re working on designing a routing algorithm for a computer network. The network can be thought of as a **graph**, where each computer is a **vertex** and the connections between them are **edges**. Let us take a brief look at how we can model such a network using discrete math.
 
+Consider a small network of 5 computers. These computers are connected as follows:
+
+- Computer A is connected to B and C.
+- Computer B is connected to A, C, and D.
+- Computer C is connected to A, B, and E.
+- Computer D is connected to B.
+- Computer E is connected to C.
+
+We can represent this network as a discrete object $$G = (V, E)$$, where:
+
+- **V** is the set of **vertices** (the computers), so $$V = \{A, B, C, D, E\}$$.
+- **E** is the set of **edges** (the connections between the computers), so $$E = \{(A, B), (A, C), (B, C), (B, D), (C, E)\}$$.
+
+This graph visually looks something like this:
+
+<Graph indexType="custom" height="400" width="400" nodes={[{label:"A",center:{x:224,y:263.2}},{label:"B",center:{x:187.3,y:196.4}},{label:"C",center:{x:263.7,y:197.7}},{label:"D",center:{x:134.1,y:247.3}},{label:"E",center:{x:221.5,y:133.1}}]} edges={[{source:0,target:1},{source:0,target:2},{source:1,target:0},{source:1,target:2},{source:1,target:3},{source:2,target:0},{source:2,target:1},{source:2,target:4},{source:3,target:1},{source:4,target:2}]} />
+
+Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
 
 ## Conclusion
 Discrete mathematics is the backbone of computer science, providing the foundational tools and concepts needed to model, analyze, and optimize systems. Discrete math equips computer scientists with the formalism and precision required to solve real-world problems effectively. From graph theory and set theory to logic and reasoning, discrete mathematics is an indispensable part of the discipline. As you continue exploring these fundamental concepts, you'll find that discrete math is essential for nearly every aspect of computer science. In the next part of this series, we'll dive into an important concept in computer science: "What Is a Proof? (And What Makes It Rigorous?)" Stay tuned to see how the power of formal reasoning and proof structures plays a critical role in ensuring that algorithms and systems function correctly and efficiently.
