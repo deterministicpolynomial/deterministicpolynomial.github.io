@@ -12,7 +12,7 @@ Discrete math is the branch of mathematics that deals with discrete objects — 
 
 - **Sets**: Collections of objects (e.g., the set of all whole numbers).
 - **Relations**: Ways in which different objects are related to each other (Person A likes Person B).
-- **Graphs**: Networks of nodes and edges that can represent anything from social networks to the internet.
+- **Graphs**: Networks of vertices and edges that can represent anything from social networks to the internet.
 - **Logic**: The study of reasoning — how we draw conclusions from premises.
 
 In essence, it’s the language you will use to design algorithms, systems, and proofs you’ll encounter in CS.
@@ -29,7 +29,7 @@ Great question! Here's the deal: most of what you’ll do in computer science re
 
 ## Real-World Example: Modeling a Network
 
-To see why discrete math matters, let’s use a simple example: modeling a network. Suppose you’re working on designing a routing algorithm for a computer network. The network can be thought of as a **graph**, where each computer is a **vertex** and the connections between them are **edges**. Discrete mathematics allows us to write this down as a graph $G = (V, E)$, where $V$ is the set of computers, and $E$ is the set of connections between the computers. Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
+To see why discrete math matters, let’s use a simple example: modeling a network. Suppose you’re working on designing a routing algorithm for a computer network. The network can be thought of as a **graph**, where each computer is a **vertex** and the connections between them are **edges**. Discrete mathematics allows us to write this down as a graph $$G = (V, E)$$, where $$V$$ is the set of computers, and $$E$$ is the set of connections between the computers. Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
 
 
 ## Conclusion
