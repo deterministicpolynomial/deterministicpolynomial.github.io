@@ -48,6 +48,7 @@ This graph visually looks something like this:
 
 ![Graph Visualization](/assets/images/cs-fundamentals-1-graph.png "Discrete Object Representing Our Graph")
 
+````markdown
 ```mermaid!
 flowchart LR
     A(Round edge) --- B(Round edge)
@@ -56,6 +57,7 @@ flowchart LR
     B(Round edge) --- D(Round edge)
     C(Round edge) --- E(Round edge)
 ```
+````
 
 Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
 
