@@ -48,13 +48,13 @@ This graph visually looks something like this:
 
 ![Graph Visualization](/assets/images/cs-fundamentals-1-graph.png "Discrete Object Representing Our Graph")
 
-```mermaid!
-flowchart LR
-    A(A) --- B(B)
-    A(A) --- C(C)
-    B(B) --- C(C)
-    B(B) --- D(D)
-    C(C) --- E(E)
+```mermaid
+flowchart LR;
+    A(A) --- B(B);
+    A(A) --- C(C);
+    B(B) --- C(C);
+    B(B) --- D(D);
+    C(C) --- E(E);
 ```
 
 Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
