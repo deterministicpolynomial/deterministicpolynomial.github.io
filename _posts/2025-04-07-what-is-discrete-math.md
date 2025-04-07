@@ -47,7 +47,7 @@ We can represent this network as a discrete object $$G = (V, E)$$, where:
 This graph visually looks something like this:
 
 <p align="center">
-  <img src="/assets/images/cs-fundamentals-1-graph.png" alt="Discrete Object Representing Our Graph" width="800" height="600">
+  <img src="/assets/images/cs-fundamentals-1-graph.png" alt="Discrete Object Representing Our Graph">
 </p>
 
 Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
