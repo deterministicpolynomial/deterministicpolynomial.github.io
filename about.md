@@ -6,7 +6,7 @@ permalink: /about/
 
 ## About This Blog
 
-Hey, I'm **Samuel Nijsten**. I graduated with an MSc in Computer Science from **TU Eindhoven**, and this blog is my little corner of the internet.
+Hi! My name is Samuel Nijsten. I graduated with an MSc in Computer Science from Eindhoven University of Technology, and this blog is my little corner of the internet.
 
 I started this site to jot down some of the nice proofs, elegant theorems, or interesting results I stumble upon in my free time — whether while studying, reading papers, or just exploring math and computer science on my own.
 
