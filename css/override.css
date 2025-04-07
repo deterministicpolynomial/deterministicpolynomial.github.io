@@ -2,6 +2,13 @@
     display: none !important;
 }
 
+/* Ensure images with the .responsive-img class are responsive */
+.responsive-img {
+    width: 100%;      /* Make the image width 100% of its container */
+    height: auto;     /* Maintain aspect ratio */
+    max-width: 100%;  /* Prevent the image from exceeding the container's width */
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
