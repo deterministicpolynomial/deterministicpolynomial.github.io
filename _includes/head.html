@@ -32,4 +32,15 @@
 
   <script type="text/javascript"> hljs.highlightAll(); </script>
   <!-- end highlight.js support -->
+   
+  <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js"></script>
+<script>
+  $(document).ready(function () {
+    mermaid.initialize({
+      startOnLoad:true,
+      theme: "default",
+    });
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+  });
+</script>
 </head>
