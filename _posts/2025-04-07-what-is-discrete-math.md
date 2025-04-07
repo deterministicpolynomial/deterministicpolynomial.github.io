@@ -46,7 +46,7 @@ We can represent this network as a discrete object $$G = (V, E)$$, where:
 
 This graph visually looks something like this:
 
-<Graph indexType="custom" height="400" width="400" nodes={[{label:"A",center:{x:224,y:263.2}},{label:"B",center:{x:187.3,y:196.4}},{label:"C",center:{x:263.7,y:197.7}},{label:"D",center:{x:134.1,y:247.3}},{label:"E",center:{x:221.5,y:133.1}}]} edges={[{source:0,target:1},{source:0,target:2},{source:1,target:0},{source:1,target:2},{source:1,target:3},{source:2,target:0},{source:2,target:1},{source:2,target:4},{source:3,target:1},{source:4,target:2}]} />
+![Graph Visualization](/assets/images/cs-fundamentals-1-graph.png "Discrete Object Representing Our Graph")
 
 Once the network is modeled in this manner, an algorithm can be developed to identify the most efficient path for data transmission between two vertices. For instance the famous [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm).
 
