@@ -21,6 +21,11 @@ theme: "minima"
 
 show_rss: false
 
+collections:
+  csfundamentals:
+    output: true
+    permalink: /:collection/:categories:output_ext
+
 kramdown:
   syntax_highlighter_opts:
     disable: true
