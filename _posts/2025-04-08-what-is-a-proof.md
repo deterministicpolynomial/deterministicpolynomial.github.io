@@ -1,6 +1,6 @@
 # What Is a Proof? (And What Makes It Rigorous?) CS Fundamentals Part 2
 
-Welcome back to the CS Fundamentals series! In [Part 1](2025-04-07-what-is-discrete-math.md), we took a look at discrete mathematics — the language of computer science. We explored how CS problems are built on **discrete structures** like graphs, sets, and logic. This time, we’re diving into something equally foundational: **proofs**.
+Welcome back to the CS Fundamentals series! In [Part 1]([2025-04-07-what-is-discrete-math.md](https://deterministicpolynomial.github.io/2025/04/07/what-is-discrete-math.html)), we took a look at discrete mathematics — the language of computer science. We explored how CS problems are built on **discrete structures** like graphs, sets, and logic. This time, we’re diving into something equally foundational: **proofs**.
 
 ---
 
