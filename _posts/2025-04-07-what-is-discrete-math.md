@@ -1,3 +1,9 @@
+---
+title: "What Is Discrete Math? CS Fundamentals Part 1"
+date: 2025-04-07
+tags: [CSFundamentals]
+---
+
 # What Is Discrete Math? CS Fundamentals Part 1
 
 Welcome to the first series I will be doing on this blog, called "CS fundamentals"! In this series, we will cover some of the basic principles of theoretical computer science, such as logic and set theory, discrete mathematics, big-oh notation, and much more!
