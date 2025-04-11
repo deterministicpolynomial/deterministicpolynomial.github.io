@@ -1,5 +1,10 @@
+---
+title: "What Is Mathematical Induction? CS Fundamentals Part 3"
+date: 2025-04-11
+tags: [CS Fundamentals]
+---
 
-# Part 3: Understanding Mathematical Induction. CS Fundamentals Part 3
+# What Is Mathematical Induction? CS Fundamentals Part 3
 
 Welcome back to the *CS Fundamentals* series! In Part 2, we talked about proofs — the formal reasoning tools that give computer science its backbone. Now, we’re zooming in on one of the most powerful and widely-used proof techniques in the field: **mathematical induction**.
 
